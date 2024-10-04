@@ -24,3 +24,14 @@
     color: white; /* Texto branco ao passar o mouse */
   }
   
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column; /* Coloca os botões em uma coluna em telas pequenas */
+      align-items: center; /* Centraliza os botões na tela */
+    }
+    
+    button {
+      width: 100%; /* Botões ocupam toda a largura do contêiner em telas pequenas */
+      font-size: 18px; /* Aumenta o tamanho da fonte em telas menores */
+    }
+  }

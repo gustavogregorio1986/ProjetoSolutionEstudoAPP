@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  produtourl = 'https://institutoagf.com.br/wp-content/uploads/2020/09/deposito.jpg'
+  produtoAlt = 'Imagem de produto'
 }

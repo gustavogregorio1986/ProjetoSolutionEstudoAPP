@@ -1,0 +1,10 @@
+.center{
+    text-align: center;
+}
+
+.img-responsiva {
+    max-width: 100%; /* Garante que a imagem nunca ultrapasse o tamanho do contêiner */
+    height: auto; /* Ajusta a altura da imagem proporcionalmente */
+    display: block; /* Remove o espaço extra ao redor da imagem */
+}
+  
