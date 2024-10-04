@@ -1,0 +1,26 @@
+/* Estilização do menu */
+.menu {
+    background-color: #3f51b5; /* Cor de fundo do menu */
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Estilização dos botões */
+  button {
+    color: black; /* Cor do texto dos botões */
+  }
+  
+  /* Quando a rota está ativa, o botão ficará com uma cor diferente */
+  button.active-link {
+    background-color: #ff4081; /* Cor de fundo para o botão ativo */
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Para mudar a cor ao passar o mouse */
+  button:hover {
+    background-color: #3f51b5; /* Fundo azul ao passar o mouse */
+    color: white; /* Texto branco ao passar o mouse */
+  }
+  
